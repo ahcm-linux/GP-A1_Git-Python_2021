@@ -6,7 +6,7 @@ ry <- 0.6
 
 plot(x, y, type = "p", cex = 1.5, pch = 20, col = "red")
 points(rx, ry, cex = 1.5, pch = 20, col = "red")
-
+oaisaipsasijpajsosjapsoajpo
 N <- 3000
 for (i in 1:N) {
   selection <- sample(1:length(x), 1)
