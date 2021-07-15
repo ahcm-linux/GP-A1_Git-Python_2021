@@ -7,8 +7,8 @@ ry <- 0.6
 plot(x, y, type = "p", cex = 1.5, pch = 20, col = "red")
 points(rx, ry, cex = 1.5, pch = 20, col = "red")
 
-n <- 3000
-for (i in 1:n) {
+N <- 3000
+for (i in 1:N) {
   selection <- sample(1:length(x), 1)
   rx <- (rx + x[selection]) / 2
   ry <- (ry + y[selection]) / 2
