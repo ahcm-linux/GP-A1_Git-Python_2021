@@ -15,5 +15,5 @@ for (i in 1:n) {
   rx <- (rx + x[selection]) / 2
   ry <- (ry + y[selection]) / 2
   points(rx, ry, cex = 0.5, pch = 20)
-  Sys.sleep(0.005)
+  #Sys.sleep(0.005)
 }
